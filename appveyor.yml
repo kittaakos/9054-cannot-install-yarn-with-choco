@@ -1,0 +1,14 @@
+shallow_clone: true
+
+branches:
+  only:
+  - master
+
+platform:
+  - x64
+
+install:
+  - cinst yarn --version 1.2.1
+
+build_script:
+  - yarn --version
